@@ -1,0 +1,10 @@
+[package]
+name = "tachyon_query"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+datafusion = "34.0.0"
+arrow = "49.0.0"
+tokio = { version = "1", features = ["full"] }
+libc = "0.2"
